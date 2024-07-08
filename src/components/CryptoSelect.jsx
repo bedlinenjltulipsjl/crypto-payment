@@ -18,20 +18,20 @@ export default function CryptoSelect({ changeCrypto }) {
       >
         USDT
       </CryptoItem>
-      <CryptoItem
+      {/* <CryptoItem
         icon="/dash.webp"
         active={activeCrypto == "dash"}
         onClick={() => updateCrypto("dash")}
       >
         Dash
-      </CryptoItem>
-      <CryptoItem
+      </CryptoItem> */}
+      {/* <CryptoItem
         icon="/btc.webp"
         active={activeCrypto == "btc"}
         onClick={() => updateCrypto("btc")}
       >
         BTC
-      </CryptoItem>
+      </CryptoItem> */}
       <CryptoItem
         icon="/bnb.webp"
         active={activeCrypto == "bnb20"}
@@ -39,13 +39,13 @@ export default function CryptoSelect({ changeCrypto }) {
       >
         BNB
       </CryptoItem>
-      <CryptoItem
+      {/* <CryptoItem
         icon="/eth.webp"
         active={activeCrypto == "eth"}
         onClick={() => updateCrypto("eth")}
       >
         ETH
-      </CryptoItem>
+      </CryptoItem> */}
       <CryptoItem
         icon="/ton.webp"
         active={activeCrypto == "ton"}
